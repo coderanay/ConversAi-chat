@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "docker compose up -d && next dev --turbopack",
+    "dev": "docker compose up -d && npx next dev",
     "build": "next build --turbopack",
-    "start": "next start",
+    "start": "npx next start",
     "lint": "eslint",
     "postinstall": "prisma generate"
   },
